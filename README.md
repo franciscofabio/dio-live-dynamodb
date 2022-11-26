@@ -1,5 +1,9 @@
 # dio-live-dynamodb
-Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
+Repositório para o projeto do Bootcamp DIO Unimed_BH Data Science - Projeto sobre o Amazon DynamoDB
+
+### Diferencial acrescentado no projeto
+  - Musica do Album de 1983 e os dois discos completos de 2021 no arquivo de inserção multipla.
+  - Alteração das Querys de Consultas para as novos dados.
 
 ### Serviço utilizado
   - Amazon DynamoDB
@@ -99,7 +103,7 @@ aws dynamodb query \
     --table-name Music \
     --index-name AlbumTitle-index \
     --key-condition-expression "AlbumTitle = :name" \
-    --expression-attribute-values  '{":name":{"S":"Fear of the Dark"}}'
+    --expression-attribute-values  '{":name":{"S":"Senjutsu Disc 2"}}'
 ```
 
 - Pesquisa pelo index secundário baseado no nome do artista e no título do álbum
@@ -109,7 +113,7 @@ aws dynamodb query \
     --table-name Music \
     --index-name ArtistAlbumTitle-index \
     --key-condition-expression "Artist = :v_artist and AlbumTitle = :v_title" \
-    --expression-attribute-values  '{":v_artist":{"S":"Iron Maiden"},":v_title":{"S":"Fear of the Dark"} }'
+    --expression-attribute-values  '{":v_artist":{"S":"Iron Maiden"},":v_title":{"S":"Senjutsu Disc 1"} }'
 ```
 
 - Pesquisa pelo index secundário baseado no título da música e no ano
@@ -119,5 +123,5 @@ aws dynamodb query \
     --table-name Music \
     --index-name SongTitleYear-index \
     --key-condition-expression "SongTitle = :v_song and SongYear = :v_year" \
-    --expression-attribute-values  '{":v_song":{"S":"Wasting Love"},":v_year":{"S":"1992"} }'
+    --expression-attribute-values  '{":v_song":{"S":"The Fallen Angel"},":v_year":{"S":"2000"} }'
 ```

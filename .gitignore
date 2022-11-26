@@ -1,0 +1,3 @@
+# ignorar arquivos e pasta criada para CLI aws
+/aws
+.awscliv2.zip

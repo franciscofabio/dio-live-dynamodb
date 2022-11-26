@@ -29,6 +29,116 @@
                   "SongYear": {"S": "1992"}
                 }
             }
-        }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "Piece of Mind"},
+                  "AlbumTitle": {"S": "Remaster"},
+                  "SongYear": {"S": "1983"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "Senjutsu"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 1"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "The Writing On The Wall"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 1"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "Lost In a Lost World"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 1"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "Days of Future Past"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 1"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "The Time Machine"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 1"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "Darkest Hour"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 2"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "Death of The Celts"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 2"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "The Parchment"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 2"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+          
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Iron Maiden"},
+                  "SongTitle": {"S": "Hell On Earth"},
+                  "AlbumTitle": {"S": "Senjutsu Disc 2"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        }   
       ]
 }
